@@ -2,76 +2,90 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a823104-cc9e-41be-b94f-f95c39edf48b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_25_0_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_8_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_exec_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_checkerframework_checker_compat_qual_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_api_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_chrome_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_edge_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_firefox_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_ie_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_java_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_opera_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_remote_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_safari_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_support_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/wild-web-tests.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/wild-web-tests.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/wild-web-tests.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Sandbox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Sandbox.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/Sandbox.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Sandbox.main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/Sandbox.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Sandbox.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/out/production/classes/META-INF/Sandbox.main.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Sandbox/.gradle/" />
     <ignored path="$PROJECT_DIR$/Sandbox/build/" />
     <ignored path="$PROJECT_DIR$/Sandbox/out/" />
+    <ignored path="$PROJECT_DIR$/wild-web-tests/.gradle/" />
+    <ignored path="$PROJECT_DIR$/wild-web-tests/build/" />
+    <ignored path="$PROJECT_DIR$/wild-web-tests/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Java_pf$GolfTestCase.ic" NAME="GolfTestCase Coverage Results" MODIFIED="1549586887816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.tests.*</FILTER>
+    </SUITE>
+  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/Sandbox">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/wild-web-tests">
       <ProjectState />
     </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Sandbox" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sandbox/src/main/java/stqa/pf/sandbox/HelloWorld.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Sandbox/build.gradle">
+        <entry file="file://$PROJECT_DIR$/wild-web-tests/src/test/java/stqa/ft/golf/UntitledTestCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sandbox/src/main/java/stqa/pf/sandbox/Square.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-              <folding>
-                <element signature="e#99#100#0" expanded="true" />
-                <element signature="e#125#126#0" expanded="true" />
-                <element signature="e#167#168#0" expanded="true" />
-                <element signature="e#199#200#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sandbox/src/main/java/stqa/pf/sandbox/Reсtangle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-              <folding>
-                <element signature="e#208#209#0" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="11" selection-start-column="11" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -98,6 +112,18 @@
         <option value="$PROJECT_DIR$/Sandbox/src/main/java/stqa/pf/sandbox/Reсtangle.java" />
         <option value="$PROJECT_DIR$/Sandbox/src/main/java/stqa/pf/sandbox/HelloWorld.java" />
         <option value="$PROJECT_DIR$/Sandbox/build.gradle" />
+        <option value="$PROJECT_DIR$/Sandbox/src/test/java/stqa/pf/sandbox/SquareTasts.java" />
+        <option value="$PROJECT_DIR$/Sandbox/src/test/java/stqa/pf/sandbox/SquareTests.java" />
+        <option value="$PROJECT_DIR$/wild-web-tests/src/test/java/stqa/pf/wild/AmazonTestCase.java" />
+        <option value="$PROJECT_DIR$/wild-web-tests/src/test/java/stqa/pf/wild/FirefoxDriver.java" />
+        <option value="$PROJECT_DIR$/wild-web-tests/src/test/java/com/example/tests/AmazonTestCase.java" />
+        <option value="$PROJECT_DIR$/wild-web-tests/build.gradle" />
+        <option value="$PROJECT_DIR$/wild-web-tests/src/test/java/stqa/pf/wild/GolfTestCase.java" />
+        <option value="$PROJECT_DIR$/wild-web-tests/src/test/java/GolfTestCase.java" />
+        <option value="$PROJECT_DIR$/wild-web-tests/src/test/java/com/example/tests/GolfTestCase.java" />
+        <option value="$PROJECT_DIR$/wild-web-tests/src/test/java/TestCase.java" />
+        <option value="$PROJECT_DIR$/wild-web-tests/src/test/java/com/example/tests/TestCase.java" />
+        <option value="$PROJECT_DIR$/wild-web-tests/src/test/java/stqa/ft/golf/UntitledTestCase.java" />
       </list>
     </option>
   </component>
@@ -122,41 +148,28 @@
             <path>
               <item name="Java_pf" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java_pf" type="462c0819:PsiDirectoryNode" />
-              <item name="Sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="wild-web-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="Java_pf" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java_pf" type="462c0819:PsiDirectoryNode" />
-              <item name="Sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="wild-web-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java_pf" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java_pf" type="462c0819:PsiDirectoryNode" />
-              <item name="Sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="wild-web-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="Java_pf" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java_pf" type="462c0819:PsiDirectoryNode" />
-              <item name="Sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="wild-web-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java_pf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_pf" type="462c0819:PsiDirectoryNode" />
-              <item name="Sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sandbox" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java_pf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -167,17 +180,24 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549230521295" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/Sandbox/src/main/java" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549588860885" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/wild-web-tests/src/test/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wild-web-tests/build.gradle" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GitHub\Java_pf\wild-web-tests\.gradle" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="stqa.pf.wild" />
       <recent name="stqa.pf.sandbox" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="stqa.pf.wild" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -192,17 +212,82 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stqa.pf.sandbox.HelloWorld" />
-      <module name="Sandbox.main" />
+  <component name="RunManager" selected="TestNG.UntitledTestCase">
+    <configuration name="GolfTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="wild-web-tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stqa.pf.wild" />
+      <option name="MAIN_CLASS_NAME" value="com.example.tests.GolfTestCase" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCase" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="wild-web-tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.example.tests.TestCase" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UntitledTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="wild-web-tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stqa.ft.golf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stqa.ft.golf" />
+      <option name="MAIN_CLASS_NAME" value="stqa.ft.golf.UntitledTestCase" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;default&gt; (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="wild-web-tests.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Sandbox.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="TestNG.UntitledTestCase" />
+        <item itemvalue="TestNG.TestCase" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG.&lt;default&gt; (1)" />
+        <item itemvalue="TestNG.GolfTestCase" />
       </list>
     </recent_temporary>
   </component>
@@ -219,6 +304,38 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="GolfTestCase - 2019.02.07 at 16h 47m 08s.xml">
+      <configuration name="GolfTestCase" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GolfTestCase - 2019.02.07 at 16h 47m 16s.xml">
+      <configuration name="GolfTestCase" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GolfTestCase - 2019.02.07 at 16h 48m 46s.xml">
+      <configuration name="GolfTestCase" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_default__(1) - 2019.02.07 at 16h 55m 38s.xml">
+      <configuration name="&lt;default&gt; (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_default__(1) - 2019.02.07 at 16h 59m 34s.xml">
+      <configuration name="&lt;default&gt; (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_default_ - 2019.02.07 at 17h 01m 10s.xml">
+      <configuration name="&lt;default&gt;" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_default_ - 2019.02.07 at 17h 01m 30s.xml">
+      <configuration name="&lt;default&gt;" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestCase - 2019.02.07 at 17h 02m 16s.xml">
+      <configuration name="TestCase" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="UntitledTestCase - 2019.02.07 at 17h 15m 43s.xml">
+      <configuration name="UntitledTestCase" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="UntitledTestCase - 2019.02.07 at 17h 16m 08s.xml">
+      <configuration name="UntitledTestCase" configurationId="TestNG" />
+    </history-entry>
+  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -229,9 +346,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2624811" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -239,8 +357,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4924357" weight="0.3289689" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4924357" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49848714" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -248,8 +366,9 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32972974" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5075643" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32972974" />
-      <window_info anchor="bottom" id="Build" order="10" sideWeight="0.4992224" weight="0.32972974" />
+      <window_info anchor="bottom" id="Build" order="10" sideWeight="0.4992224" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4924357" weight="0.3289689" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32980332" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -258,75 +377,138 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Gradle" order="8" />
+      <window_info anchor="right" id="Gradle" order="8" visible="true" weight="0.32980332" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4924357" visible="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49848714" weight="0.39934534" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32972974" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32972974" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5075643" side_tool="true" visible="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32972974" />
-      <window_info anchor="bottom" id="Build" order="10" sideWeight="0.4992224" visible="true" weight="0.32972974" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4924357" weight="0.3289689" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Gradle" order="8" />
-    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Sandbox/src/main/java/stqa/pf/sandbox/Square.java">
+    <entry file="file://$PROJECT_DIR$/sandbox/src/main/java/stqa/pf/sandbox/Square.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="136">
           <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding>
             <element signature="e#99#100#0" expanded="true" />
             <element signature="e#125#126#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#199#200#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sandbox/src/main/java/stqa/pf/sandbox/Reсtangle.java">
+    <entry file="file://$PROJECT_DIR$/sandbox/src/main/java/stqa/pf/sandbox/Reсtangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="170">
           <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding>
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sandbox/src/main/java/stqa/pf/sandbox/HelloWorld.java">
+    <entry file="file://$PROJECT_DIR$/sandbox/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sandbox/src/test/java/stqa/pf/sandbox/SduareTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandbox/src/main/java/stqa/pf/sandbox/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sandbox/build.gradle">
+    <entry file="file://$PROJECT_DIR$/wild-web-tests/.gradle/java/stqa/pf/sandbox/SquareTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        <state relative-caret-position="170">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wild-web-tests/src/test/java/stqa/pf/wild/Lamoda1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wild-web-tests/src/test/java/com/example/tests/AmazonTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wild-web-tests/src/test/java/stqa/pf/wild/FirefoxDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wild-web-tests/src/test/java/stqa/pf/wild/GolfTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wild-web-tests/src/test/java/com/example/tests/GolfTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wild-web-tests/gradle.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wild-web-tests/gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wild-web-tests/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wild-web-tests/src/test/java/com/example/tests/GolfTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wild-web-tests/src/test/java/com/example/tests/TestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wild-web-tests/src/test/java/stqa/ft/golf/UntitledTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -382,11 +564,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Sandbox</last-edited>
+          <last-edited>test|Sandbox</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -406,6 +589,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Gradle: com.beust:jcommander:1.72</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

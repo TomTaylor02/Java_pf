@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="Sandbox.main" target="1.8" />
       <module name="Sandbox.test" target="1.8" />
+      <module name="wild-web-tests.main" target="1.8" />
+      <module name="wild-web-tests.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
