@@ -6,11 +6,9 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import java.util.concurrent.TimeUnit;
-
 import static org.testng.Assert.fail;
 
-public class UntitledTestCase {
+public class GoogleHouseCase {
   private WebDriver driver;
   private String baseUrl;
   private boolean acceptNextAlert = true;
@@ -19,17 +17,17 @@ public class UntitledTestCase {
   @BeforeClass(alwaysRun = true)
   public void setUp() throws Exception {
     driver = new FirefoxDriver();
-    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+
   }
 
   @Test
   public void testUntitledTestCase() throws Exception {
-    driver.get("https://www.budgetgolf.com/cart.php");
-    driver.findElement(By.xpath("//body[@id='main_bg']/div/div[3]/div/div/div[5]/a/span")).click();
-    driver.findElement(By.xpath("//img[@alt='golf equipment']")).click();
-    driver.findElement(By.linkText("Golf Gloves")).click();
-    driver.findElement(By.xpath("//div[@id='ajax_pr_list']/div[2]/div/div/a/i")).click();
-    driver.findElement(By.xpath("//img[@alt='Asher Chuck Glove']")).click();
+    driver.get("https://www.google.com/search?client=firefox-b-1-d&q=google");
+    driver.findElement(By.name("q")).click();
+    driver.findElement(By.name("q")).click();
+    driver.findElement(By.name("q")).clear();
+    driver.findElement(By.name("q")).sendKeys("house");
+    driver.findElement(By.xpath("//button[@type='button']")).click();
   }
 
   @AfterClass(alwaysRun = true)

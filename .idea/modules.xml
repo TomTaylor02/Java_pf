@@ -3,9 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Java_pf.iml" filepath="$PROJECT_DIR$/.idea/Java_pf.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sandbox.iml" filepath="$PROJECT_DIR$/.idea/modules/Sandbox.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sandbox.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Sandbox.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sandbox.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Sandbox.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sandbox.iml" filepath="$PROJECT_DIR$/.idea/modules/sandbox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sandbox.main.iml" filepath="$PROJECT_DIR$/.idea/modules/sandbox.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sandbox.test.iml" filepath="$PROJECT_DIR$/.idea/modules/sandbox.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/wild-web-tests.iml" filepath="$PROJECT_DIR$/.idea/modules/wild-web-tests.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/wild-web-tests.main.iml" filepath="$PROJECT_DIR$/.idea/modules/wild-web-tests.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/wild-web-tests.test.iml" filepath="$PROJECT_DIR$/.idea/modules/wild-web-tests.test.iml" />
