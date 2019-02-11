@@ -6,7 +6,9 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.util.Iterator;
 import java.util.List;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 public class TestCase6 {
@@ -18,7 +20,7 @@ public class TestCase6 {
     @BeforeClass(alwaysRun = true)
     public void setUp() throws Exception {
         driver = new FirefoxDriver();
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
     @Test
@@ -37,8 +39,15 @@ public class TestCase6 {
             driver1.findElement(By.xpath("//body[@id='main_bg']/div[15]")).click();
             //прооверка на соответствие
             driver1.findElement(By.linkText("View Cart")).click();
+            Set<String> windows = driver.getWindowHandles();
+            Iterator<String> it = windows.iterator();
+            String mainWindow = (String) it.next();
+            String popUp = (String) it.next();
+            driver1.switchTo().window(popUp);
             driver1.findElement(By.xpath("//body[@id='main_bg']/div/div/div/div[4]/div/div[2]/div/form/div/div/div/div[2]/div/div[4]/div[3]/a/span")).click();
             driver1.close();
+            driver1.switchTo().window(mainWindow);
+
         }
 
     }@AfterClass(alwaysRun = true)
