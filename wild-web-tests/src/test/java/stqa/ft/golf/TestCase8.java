@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class TestCase6 {
+public class TestCase8 {
     private WebDriver driver;
     private String baseUrl;
     private boolean acceptNextAlert = true;
@@ -24,32 +24,50 @@ public class TestCase6 {
 
     @Test
     public void testUntitledTestCase() throws Exception {
-        driver.get("https://www.budgetgolf.com/golf-gloves/");
-
+        driver.get("https://www.budgetgolf.com/golf-gloves/#!|page|1|opp|30");
         List<WebElement> elements = driver.findElements(By.className("pr_list_thumb"));
-        for (int i = 0; i < elements.size(); i++) {
-            WebElement item = elements.get(i);
-            WebDriver driver1 = new FirefoxDriver();
-            String productURL = item.getAttribute("href");
 
-            driver1.get(productURL);
-            // test
-            Select dropdown = new Select(driver1.findElement(By.id("product_avail")));
-            // If quantity is 1, then no test
-            if (dropdown.getOptions().size() < 7) {
-                driver1.quit();
-            }
-            //driver1.findElement(By.id("product_avail")).sendKeys("2");
-            //driver1.findElement(By.xpath("//option[@value='2']")).click();
-            //driver1.findElement(By.xpath("//button[@type='submit']")).click();
-            //String Window1 = driver1.getWindowHandle();
-            //Set<String> Windows = driver1.getWindowHandles();
+        driver.findElement(By.xpath("//img[@alt='OnCourse All Weather Golf Glove']")).click();
+        String productURL = "OnCourse All Weather Golf Glove";
 
-            //driver1.findElement(By.linkText("View Cart")).click();
-            driver1.quit();
+        Select dropdown = new Select(driver.findElement(By.id("product_avail")));
+
+        // If quantity is 1, then no test
+        if( dropdown.getOptions().size() < 2 )
+        {
+            return;
         }
 
+        // Input testing quantity (select from the drop down list)
+        driver.findElement(By.xpath("//option[@value='2']")).click();
+
+        // Click to add to the cart
+        driver.findElement(By.xpath("//button[@type='submit']")).click();
+
+        // Quantity in popup window
+        WebElement Q2 = driver.findElement(By.className("product_info_tbl")).findElement(By.className("p1")).findElement(By.className("inner"));
+        String valQ2 = Q2.getText().replaceAll("[^0-9.]", "");
+        //System.out.println(valQ2);
+        driver.findElement(By.linkText("View Cart")).click();
+
+        // Quantity in the cart
+        WebElement Q3 = driver.findElement(By.className("product-price-text")).findElement(By.cssSelector("input[type='text']"));
+        String valQ3 = Q3.getAttribute("value");
+        //System.out.println(valQ3);
+
+        // Clear cart
+        driver.findElement(By.xpath("//body[@id='main_bg']/div/div/div/div[4]/div/div[2]/div/form/div/div/div/div[2]/div/div[4]/div[3]/a/span")).click();
+
+        // Compare product quantity
+        if(!valQ2.equals(valQ3))
+        {
+            System.out.println("Quantity is different: " + Q2 + " != " + Q3);
+            System.out.println("URL: " + productURL);
+        }
     }
+
+
+
 
     @AfterClass(alwaysRun = true)
     public void tearDown() throws Exception {
@@ -97,4 +115,3 @@ public class TestCase6 {
 
 
 
-   

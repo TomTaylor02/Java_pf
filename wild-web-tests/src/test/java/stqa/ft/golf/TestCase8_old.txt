@@ -1,0 +1,125 @@
+package stqa.ft.golf;
+
+import org.openqa.selenium.*;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+public class TestCase8 {
+    private WebDriver driver;
+    private String baseUrl;
+    private boolean acceptNextAlert = true;
+    private StringBuffer verificationErrors = new StringBuffer();
+
+    @BeforeClass(alwaysRun = true)
+    public void setUp() throws Exception {
+        driver = new FirefoxDriver();
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    }
+
+    @Test
+    public void testUntitledTestCase() throws Exception {
+        driver.get("https://www.budgetgolf.com/golf-gloves/#!|page|1|opp|30");
+        List<WebElement> elements = driver.findElements(By.className("pr_list_thumb"));
+
+        driver.findElement(By.xpath("//img[@alt='OnCourse All Weather Golf Glove']")).click();
+        WebElement Qmax = driver.findElement(By.id("product_avail"));
+
+        // if Qmax<1 идем дальше, если меньше 2 перейти к следующему товару
+        /*
+        if( Integer.parseInt(Qmax.getText() ) < 2 )
+        {
+            return;
+        }
+        */
+        //driver.findElement(By.id("product_avail")).sendKeys("2");
+        driver.findElement(By.xpath("//option[@value='2']")).click();
+        //WebElement Q1 = driver.findElement(By.id("product_avail")); // взять значение Q1 = 2;
+        //System.out.println("Результат1 : " + Q1.getText());
+        driver.findElement(By.xpath("//button[@type='submit']")).click();
+
+        WebElement q2 = driver.findElement(By.className("product_info_tbl")).findElement(By.className("p1")).findElement(By.className("inner"));
+        System.out.println(q2.getText().replaceAll("[^0-9.]", ""));
+
+
+        driver.findElement(By.linkText("View Cart")).click();
+        /*
+        String Window1 = driver.getWindowHandle();
+        Set<String> Windows = driver.getWindowHandles();
+        for (String x : Windows) {
+            if (x.equals(Window1) == false) {
+                driver.switchTo().window(x);
+                Thread.sleep(3000);
+            }
+
+            WebElement q2 = driver.findElement(By.className("inner"));
+            String valQ2 = q2.getAttribute("span");
+
+            WebElement Q2 = driver.findElement(By.xpath("(//span[contains(.,'2')])[3]"));
+            System.out.println("Результат2 : " + Q2.getText());
+            //взять значение Q2 = ?;
+            driver.findElement(By.linkText("View Cart")).click();
+            WebElement Q3 = driver.findElement(By.xpath("//input[@size='3']"));
+            System.out.println("Результат3 : " + Q3.getText());
+            Thread.sleep(3000);
+            driver.findElement(By.xpath("//body[@id='main_bg']/div/div/div/div[4]/div/div[2]/div/form/div/div/div/div[2]/div/div[4]/div[3]/a/span")).click();
+            // If Q1 != Q2 || Q1 != Q3; Сравнить значения, Нет - перейти к следующему товару,
+            // Да - распечатать ссылку товара и результат сравнения и перейти к следующему товару;
+            // System.out.println();
+        }
+        */
+    }
+
+
+
+
+    @AfterClass(alwaysRun = true)
+    public void tearDown() throws Exception {
+        driver.quit();
+        String verificationErrorString = verificationErrors.toString();
+        if (!"".equals(verificationErrorString)) {
+            // fail(verificationErrorString);
+        }
+    }
+
+    private boolean isElementPresent(By by) {
+        try {
+            driver.findElement(by);
+            return true;
+        } catch (NoSuchElementException e) {
+            return false;
+        }
+    }
+
+    private boolean isAlertPresent() {
+        try {
+            driver.switchTo().alert();
+            return true;
+        } catch (NoAlertPresentException e) {
+            return false;
+        }
+    }
+
+    private String closeAlertAndGetItsText() {
+        try {
+            Alert alert = driver.switchTo().alert();
+            String alertText = alert.getText();
+            if (acceptNextAlert) {
+                alert.accept();
+            } else {
+                alert.dismiss();
+            }
+            return alertText;
+        } finally {
+            acceptNextAlert = true;
+        }
+    }
+}
+
+
+
+
