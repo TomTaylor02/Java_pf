@@ -27,8 +27,8 @@ public class TestCase8 {
         driver.get("https://www.budgetgolf.com/golf-gloves/#!|page|1|opp|30");
         List<WebElement> elements = driver.findElements(By.className("pr_list_thumb"));
 
-        driver.findElement(By.xpath("//img[@alt='OnCourse All Weather Golf Glove']")).click();
-        String productURL = "OnCourse All Weather Golf Glove";
+        driver.findElement(By.xpath("//img[@alt='Quality Sports Cabretta Premium Leather Glove']")).click();
+        String productURL = "//img[@alt='Quality Sports Cabretta Premium Leather Glove']";
 
         Select dropdown = new Select(driver.findElement(By.id("product_avail")));
 
@@ -47,13 +47,13 @@ public class TestCase8 {
         // Quantity in popup window
         WebElement Q2 = driver.findElement(By.className("product_info_tbl")).findElement(By.className("p1")).findElement(By.className("inner"));
         String valQ2 = Q2.getText().replaceAll("[^0-9.]", "");
-        //System.out.println(valQ2);
+        System.out.println(valQ2);
         driver.findElement(By.linkText("View Cart")).click();
 
         // Quantity in the cart
         WebElement Q3 = driver.findElement(By.className("product-price-text")).findElement(By.cssSelector("input[type='text']"));
         String valQ3 = Q3.getAttribute("value");
-        //System.out.println(valQ3);
+        System.out.println(valQ3);
 
         // Clear cart
         driver.findElement(By.xpath("//body[@id='main_bg']/div/div/div/div[4]/div/div[2]/div/form/div/div/div/div[2]/div/div[4]/div[3]/a/span")).click();
@@ -61,7 +61,7 @@ public class TestCase8 {
         // Compare product quantity
         if(!valQ2.equals(valQ3))
         {
-            System.out.println("Quantity is different: " + Q2 + " != " + Q3);
+            System.out.println("Quantity is different: " + valQ2 + " != " + valQ3);
             System.out.println("URL: " + productURL);
         }
     }

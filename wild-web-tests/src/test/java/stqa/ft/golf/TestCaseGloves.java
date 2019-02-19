@@ -49,11 +49,11 @@ public class TestCaseGloves {
             driver1.findElement(By.xpath("//button[@type='submit']")).click();
 
             // Quantity in popup window
-            //WebElement Q2 = driver1.findElement(By.className("product_info_tbl")).findElement(By.className("p1")).findElement(By.className("inner"));
-            //String valQ2 = Q2.getText().replaceAll("[^0-9.]", "");
+            WebElement Q2 = driver1.findElement(By.className("product_info_tbl")).findElement(By.className("p1")).findElement(By.className("inner"));
+            String valQ2 = Q2.getText().replaceAll("[^0-9.]", "");
             //System.out.println(valQ2);
             driver1.findElement(By.linkText("View Cart")).click();
-/*
+
             // Quantity in the cart
             WebElement Q3 = driver1.findElement(By.className("product-price-text")).findElement(By.cssSelector("input[type='text']"));
             String valQ3 = Q3.getAttribute("value");
@@ -67,7 +67,7 @@ public class TestCaseGloves {
                 System.out.println("Quantity is different: " + Q2 + " != " + Q3);
                 System.out.println("URL: " + productURL);
             }
-            */
+
             driver1.quit();
         }
 

@@ -33,19 +33,12 @@ public class TestCase6 {
             String productURL = item.getAttribute("href");
 
             driver1.get(productURL);
-            // test
             Select dropdown = new Select(driver1.findElement(By.id("product_avail")));
             // If quantity is 1, then no test
-            if (dropdown.getOptions().size() < 7) {
+            if (dropdown.getOptions().size() < 2) {
                 driver1.quit();
             }
-            //driver1.findElement(By.id("product_avail")).sendKeys("2");
-            //driver1.findElement(By.xpath("//option[@value='2']")).click();
-            //driver1.findElement(By.xpath("//button[@type='submit']")).click();
-            //String Window1 = driver1.getWindowHandle();
-            //Set<String> Windows = driver1.getWindowHandles();
 
-            //driver1.findElement(By.linkText("View Cart")).click();
             driver1.quit();
         }
 

@@ -4,6 +4,8 @@
     <list default="true" id="4a823104-cc9e-41be-b94f-f95c39edf48b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wild-web-tests/src/test/java/stqa/ft/golf/TestCase6.java" beforeDir="false" afterPath="$PROJECT_DIR$/wild-web-tests/src/test/java/stqa/ft/golf/TestCase6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wild-web-tests/src/test/java/stqa/ft/golf/TestCase8.java" beforeDir="false" afterPath="$PROJECT_DIR$/wild-web-tests/src/test/java/stqa/ft/golf/TestCase8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wild-web-tests/src/test/java/stqa/ft/golf/TestCaseGloves.java" beforeDir="false" afterPath="$PROJECT_DIR$/wild-web-tests/src/test/java/stqa/ft/golf/TestCaseGloves.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Sandbox/.gradle/" />
     <ignored path="$PROJECT_DIR$/Sandbox/build/" />
@@ -67,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wild-web-tests/src/test/java/stqa/ft/golf/TestCase6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+            <state relative-caret-position="306">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
@@ -76,8 +78,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wild-web-tests/src/test/java/stqa/ft/golf/TestCaseGloves.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="153">
+              <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -133,9 +135,9 @@
         <option value="$PROJECT_DIR$/wild-web-tests/src/test/java/stqa/ft/golf/gl.java" />
         <option value="$PROJECT_DIR$/wild-web-tests/src/test/java/stqa/ft/golf/testGlovesCase.java" />
         <option value="$PROJECT_DIR$/wild-web-tests/src/test/java/stqa/ft/golf/TestCase7.java" />
+        <option value="$PROJECT_DIR$/wild-web-tests/src/test/java/stqa/ft/golf/TestCaseGloves.java" />
         <option value="$PROJECT_DIR$/wild-web-tests/src/test/java/stqa/ft/golf/TestCase8.java" />
         <option value="$PROJECT_DIR$/wild-web-tests/src/test/java/stqa/ft/golf/TestCase6.java" />
-        <option value="$PROJECT_DIR$/wild-web-tests/src/test/java/stqa/ft/golf/TestCaseGloves.java" />
       </list>
     </option>
   </component>
@@ -208,12 +210,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550045649185" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550548313426" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/wild-web-tests/src/test/java" />
     <property name="last_opened_file_path" value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.0.0-beta3/26002157600abfaa1060ca485c43aef748b6b659/testng-7.0.0-beta3-sources.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -249,7 +251,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestCase8">
+  <component name="RunManager" selected="TestNG.TestCase6">
     <configuration name="TestCase6" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="wild-web-tests.test" />
       <extension name="coverage">
@@ -332,9 +334,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestCase6" />
         <item itemvalue="TestNG.TestCase8" />
         <item itemvalue="TestNG.TestCaseGloves" />
-        <item itemvalue="TestNG.TestCase6" />
         <item itemvalue="TestNG.TestCase7" />
         <item itemvalue="TestNG.gl" />
       </list>
@@ -354,35 +356,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestCase6 - 2019.02.12 at 23h 50m 07s.xml">
+    <history-entry file="TestCase8 - 2019.02.13 at 08h 41m 38s.xml">
+      <configuration name="TestCase8" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestCaseGloves - 2019.02.13 at 08h 44m 22s.xml">
+      <configuration name="TestCaseGloves" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestCaseGloves - 2019.02.13 at 08h 45m 34s.xml">
+      <configuration name="TestCaseGloves" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestCase8 - 2019.02.13 at 08h 53m 21s.xml">
+      <configuration name="TestCase8" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestCase8 - 2019.02.13 at 08h 55m 41s.xml">
+      <configuration name="TestCase8" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestCase8 - 2019.02.13 at 09h 03m 07s.xml">
+      <configuration name="TestCase8" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestCase8 - 2019.02.13 at 09h 06m 14s.xml">
+      <configuration name="TestCase8" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestCase6 - 2019.02.13 at 09h 09m 34s.xml">
       <configuration name="TestCase6" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestCase6 - 2019.02.12 at 23h 52m 12s.xml">
+    <history-entry file="TestCase6 - 2019.02.13 at 09h 24m 13s.xml">
       <configuration name="TestCase6" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestCase6 - 2019.02.12 at 23h 55m 09s.xml">
+    <history-entry file="TestCase6 - 2019.02.14 at 08h 48m 53s.xml">
       <configuration name="TestCase6" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestCase6 - 2019.02.12 at 23h 58m 09s.xml">
-      <configuration name="TestCase6" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestCaseGloves - 2019.02.12 at 23h 59m 33s.xml">
-      <configuration name="TestCaseGloves" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestCaseGloves - 2019.02.13 at 00h 06m 21s.xml">
-      <configuration name="TestCaseGloves" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestCaseGloves - 2019.02.13 at 00h 07m 26s.xml">
-      <configuration name="TestCaseGloves" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestCaseGloves - 2019.02.13 at 00h 09m 02s.xml">
-      <configuration name="TestCaseGloves" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestCaseGloves - 2019.02.13 at 00h 10m 34s.xml">
-      <configuration name="TestCaseGloves" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestCaseGloves - 2019.02.13 at 00h 12m 55s.xml">
-      <configuration name="TestCaseGloves" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -395,9 +397,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4957265" visible="true" weight="0.20045386" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4957265" visible="true" weight="0.20347957" />
       <window_info id="Structure" order="1" sideWeight="0.502439" side_tool="true" weight="0.15204236" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -406,13 +408,13 @@
       <window_info id="Favorites" order="6" sideWeight="0.50427353" side_tool="true" weight="0.15582451" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4924357" visible="true" weight="0.33673468" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49167928" visible="true" weight="0.33673468" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49848714" weight="0.414966" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32972974" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3282313" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5075643" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50832075" side_tool="true" visible="true" weight="0.33673468" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289689" />
       <window_info anchor="bottom" id="Build" order="10" sideWeight="0.4992224" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4924357" weight="0.20408164" />
@@ -473,12 +475,6 @@
           <line>30</line>
           <properties />
           <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/wild-web-tests/src/test/java/stqa/ft/golf/TestCase8.java</url>
-          <line>50</line>
-          <properties />
-          <option name="timeStamp" value="75" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -625,13 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wild-web-tests/src/test/java/stqa/ft/golf/TestCase7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.0.0-beta3/26002157600abfaa1060ca485c43aef748b6b659/testng-7.0.0-beta3-sources.jar!/org/testng/internal/MethodInvocationHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="55">
@@ -646,17 +635,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wild-web-tests/src/test/java/stqa/ft/golf/TestCase8 - Copy.java">
+    <entry file="file://$PROJECT_DIR$/wild-web-tests/src/test/java/stqa/ft/golf/TestCase8 - Copy.java" />
+    <entry file="file://$PROJECT_DIR$/wild-web-tests/src/test/java/stqa/ft/golf/TestCase7.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        <state relative-caret-position="238">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wild-web-tests/src/test/java/stqa/ft/golf/TestCase8.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+        <state relative-caret-position="1071">
+          <caret line="63" column="81" selection-start-line="63" selection-start-column="81" selection-end-line="63" selection-end-column="81" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -665,15 +655,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wild-web-tests/src/test/java/stqa/ft/golf/TestCase6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+        <state relative-caret-position="306">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wild-web-tests/src/test/java/stqa/ft/golf/TestCaseGloves.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="153">
+          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="59" />
         </state>
       </provider>
     </entry>
