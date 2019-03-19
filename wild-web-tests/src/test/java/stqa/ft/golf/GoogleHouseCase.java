@@ -5,6 +5,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import java.util.concurrent.TimeUnit;
+
 
 import static org.testng.Assert.fail;
 
@@ -21,14 +23,25 @@ public class GoogleHouseCase {
   }
 
   @Test
-  public void testUntitledTestCase() throws Exception {
-    driver.get("https://www.google.com/search?client=firefox-b-1-d&q=google");
-    driver.findElement(By.name("q")).click();
-    driver.findElement(By.name("q")).click();
-    driver.findElement(By.name("q")).clear();
-    driver.findElement(By.name("q")).sendKeys("house");
-    driver.findElement(By.xpath("//button[@type='button']")).click();
+  public class AlertPopUp {
+
+    public void main(String[] args) {
+      WebDriver driver=new FirefoxDriver();
+      driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+      driver.get("http://www.services.irctc.co.in/");
+      driver.findElement(By.id("button")).click();
+      Alert alert = driver.switchTo().alert();
+      System.out.println(alert.getText());
+      try {
+        Thread.sleep(5000);
+      } catch (InterruptedException e) {
+        e.printStackTrace();
+      }
+      alert.dismiss();
+    }
+
   }
+
 
   @AfterClass(alwaysRun = true)
   public void tearDown() throws Exception {
@@ -39,16 +52,7 @@ public class GoogleHouseCase {
     }
   }
 
-  private boolean isElementPresent(By by) {
-    try {
-      driver.findElement(by);
-      return true;
-    } catch (NoSuchElementException e) {
-      return false;
-    }
-  }
-
-  private boolean isAlertPresent() {
+    private boolean isAlertPresent() {
     try {
       driver.switchTo().alert();
       return true;
@@ -57,18 +61,4 @@ public class GoogleHouseCase {
     }
   }
 
-  private String closeAlertAndGetItsText() {
-    try {
-      Alert alert = driver.switchTo().alert();
-      String alertText = alert.getText();
-      if (acceptNextAlert) {
-        alert.accept();
-      } else {
-        alert.dismiss();
-      }
-      return alertText;
-    } finally {
-      acceptNextAlert = true;
-    }
-  }
 }

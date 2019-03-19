@@ -2,6 +2,7 @@ package stqa.ft.golf;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -10,7 +11,8 @@ import java.util.concurrent.TimeUnit;
 
 import static org.testng.Assert.fail;
 
-public class UntitledTestCase {
+
+public class TestGolf1 {
   private WebDriver driver;
   private String baseUrl;
   private boolean acceptNextAlert = true;
@@ -22,14 +24,25 @@ public class UntitledTestCase {
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
   }
 
-  @Test
+    @Test
   public void testUntitledTestCase() throws Exception {
-    driver.get("https://www.budgetgolf.com/cart.php");
-    driver.findElement(By.xpath("//body[@id='main_bg']/div/div[3]/div/div/div[5]/a/span")).click();
-    driver.findElement(By.xpath("//img[@alt='golf equipment']")).click();
-    driver.findElement(By.linkText("Golf Gloves")).click();
-    driver.findElement(By.xpath("//div[@id='ajax_pr_list']/div[2]/div/div/a/i")).click();
-    driver.findElement(By.xpath("//img[@alt='Asher Chuck Glove']")).click();
+    driver.get("https://www.taylormadegolf.com/");
+    //driver.findElement(By.xpath("//button[contains(text()='No thanks')]")).click();
+
+    driver.findElement(By.xpath("//a href='taylormade-accessories-gloves'/descendant::text()='Gloves'")).click();
+
+    driver.findElement(By.xpath("//div[@class='product-image']/descendant::img")).click();
+
+    driver.findElement(By.id("va-tm_enrich_hand-hand_right")).click();
+    driver.findElement(By.id("va-tm_enrich_nonComfilSize")).click();
+    new Select(driver.findElement(By.id("va-tm_enrich_nonComfilSize"))).selectByVisibleText("Medium");
+    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Size'])[1]/following::option[3]")).click();
+    driver.findElement(By.linkText("▲")).click();
+    driver.findElement(By.id("add-to-cart")).click();
+    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Items:'])[1]/following::span[1]")).click();
+    driver.findElement(By.linkText("▲")).click();
+    driver.findElement(By.name("dwfrm_cart_shipments_i0_items_i0_deleteProduct")).click();
+    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Right'])[2]/following::span[1]")).click();
   }
 
   @AfterClass(alwaysRun = true)
